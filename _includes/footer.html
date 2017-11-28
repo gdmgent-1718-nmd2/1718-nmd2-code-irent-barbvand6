@@ -1,5 +1,18 @@
 <nav class="navbar fixed-bottom navbar-light bg-light">
-{%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
-{%- endif %}
+    <div class="container">
+        <div class="row">
+            <div class=col-7>
+                <a href="contact.html">Contact</a> <br>
+                <a href="beschikbaarheid.html">Beschikbaarheid</a> <br>
+                <a href="Tarieven.html">Tarieven</a>
+                {%- if site.show-style-guide %}
+                <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
+                {%- endif %}
+            </div>
+            <div class="col-5">
+                <p>icons social media</p>
+                <p>© Rent a Friend 2017</p>
+            </div>
+        </div>
+    </div>
 </nav>
