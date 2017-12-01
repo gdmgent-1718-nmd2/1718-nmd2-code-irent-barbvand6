@@ -11,6 +11,8 @@
 - title: Mijn reservaties
   url: /mijnreservaties.html
   sublinks:
+    - title: Overzicht
+      url: /mijnreservaties.html
     - title: Registreren
       url: /mijnreservaties_registreer.html
     - title: Bevestigingsmail
