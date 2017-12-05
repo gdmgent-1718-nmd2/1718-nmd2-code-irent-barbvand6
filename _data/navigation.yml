@@ -9,17 +9,5 @@
 - title: Tarieven
   url: /tarieven.html
 - title: Mijn reservaties
-  url: /mijnreservaties.html
-  sublinks:
-    - title: Overzicht
-      url: /mijnreservaties.html
-    - title: Registreren
-      url: /mijnreservaties_registreer.html
-    - title: Bevestigingsmail
-      url: /mijnreservaties_bevestigingsmail.html
-    - title: Gegevens
-      url: /mijnreservaties_gegevens.html
-    - title: Betaling
-      url: /mijnreservaties_betaling.html
-    - title: Bedankt
-      url: /mijnreservaties_bedankt.html
+  url: /reservaties.html
+
