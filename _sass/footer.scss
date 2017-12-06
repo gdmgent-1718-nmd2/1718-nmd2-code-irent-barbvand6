@@ -1,0 +1,23 @@
+.footer{
+    background-color: rgb(134, 207, 195) !important;
+    color:rgb(58,52,51) !important ;
+    padding: 10px;
+}
+
+li>a{
+    font-family: 'Roboto Condensed', sans-serif !important ;
+    font-weight: 700 !important;
+    color: rgb(58,52,51);
+    text-decoration: none;
+}
+
+li>a:hover{
+    font-family: 'Roboto Condensed', sans-serif !important ;
+    font-weight: 700 !important;
+    color: rgb(82, 76, 76);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

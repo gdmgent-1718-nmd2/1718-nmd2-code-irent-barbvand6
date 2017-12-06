@@ -51,3 +51,11 @@
     text-shadow: none !important;
     }
     
+
+    /* BREADCRUMB
+-------------------------------------------------- */
+    li.breadcrumb-item.active{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        color:  rgb(133, 190, 186);
+    }
