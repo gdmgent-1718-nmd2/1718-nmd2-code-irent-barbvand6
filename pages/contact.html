@@ -1,5 +1,5 @@
 ---
-layout   : default
+layout   : default-jumbo
 permalink: /contact
 # Custom Page Variables
 # ─────────────────────
@@ -9,24 +9,45 @@ title: Contacteer Bob
     <h1>{{ page.title }}</h1>
 </div>
 
-<div class="col-12 col-md-4 adres">
-    <article>
-        <p>Alpacalaan 1 <br>
-        9830 Sint-Martens-Latem</p>
-    </article>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 adres"> </div>
+        <div class="col-4 email"> </div>
+        <div class="col-4 tel"> </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4 icon-box">
+                    <div class="icon-box-icon adres">
+                            adres
+                    </div>
+                    <article class="icon-box-text">
+                            <p class="text-md-center">Alpacalaan 1 <br>
+                            9830 Sint-Martens-Latem</p>
+                    </article>
+        </div>
+
+        <div class="col-12 col-md-4 icon-box">
+                <div class="icon-box-icon email">
+                        email
+                    </div>
+            <article>
+                <p class="text-md-center">bob_de_alpaca@rentafriend.be</p>
+            </article>
+        </div>
+        <div class="col-12 col-md-4 icon-box">
+                <div class="icon-box-icon tel">
+                        tel
+                    </div>
+            <article>
+                <p class="text-md-center" >0456730056</p>
+            </article>
+        </div>
+    </div>
 </div>
 
-<div class="col-12 col-md-4 email">
-    <article>
-        <p>bob_de_alpaca@rentafriend.be</p>
-    </article>
-</div>
+      
 
-<div class="col-12 col-md-4 tel">
-    <article>
-        <p>0456730056</p>
-    </article>
-</div>
 
 <div class="container-fluid">
     <div class="row">
