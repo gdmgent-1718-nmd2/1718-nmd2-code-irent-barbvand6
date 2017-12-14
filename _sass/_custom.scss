@@ -155,7 +155,7 @@ textarea{
 
 }
 .icon-box-icon {
-    background: url("../../images/sprite_irent.png");
+    background: url("../../images/sprite_irent2.png");
     background-repeat: no-repeat;
     height: 100px;
     width: 100px;
@@ -166,6 +166,7 @@ textarea{
 }
 .icon-box-text {
     width: 66%;
+    vertical-align: middle;
 }
 
 .adres {
@@ -180,7 +181,25 @@ textarea{
     background-position: -200px -200px;
 }
 
+.alpacaicon {
+    background-position: 0px 0px;
+}
 
+.agendaicon {
+    background-position: -100px 0px;
+}
+
+.mailicon {
+    background-position: -200px 0px;
+}
+
+.facebook {
+    background-position: 0px -100px;
+}
+
+.instagram {
+    background-position: -100px -100px;
+}
 /* ANDERE
 -------------------------------------------------- */
 
