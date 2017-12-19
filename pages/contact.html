@@ -1,12 +1,16 @@
 ---
-layout   : default-jumbo
+layout   : default-jumbo-fluid
 permalink: /contact
 # Custom Page Variables
 # ─────────────────────
 title: Contacteer Bob
 ---
-<div class="col-12">
-    <h1>{{ page.title }}</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
 </div>
 
 
@@ -16,7 +20,7 @@ title: Contacteer Bob
                     <div class="icon-box-icon adres">
                             adres
                     </div>
-                    <article class="icon-box-text">
+                    <article class="icon-box-text d-flex align-items-center justify-content-md-center p-0">
                             <p class="text-md-center">Alpacalaan 1 <br>
                             9830 Sint-Martens-Latem</p>
                     </article>
@@ -26,7 +30,7 @@ title: Contacteer Bob
                 <div class="icon-box-icon email">
                         email
                     </div>
-            <article>
+            <article class="icon-box-text d-flex align-items-center justify-content-md-center p-0">
                 <p class="text-md-center">bob_de_alpaca@rentafriend.be</p>
             </article>
         </div>
@@ -34,7 +38,7 @@ title: Contacteer Bob
                 <div class="icon-box-icon tel">
                         tel
                     </div>
-            <article>
+            <article class="icon-box-text d-flex align-items-center justify-content-md-center p-0" >
                 <p class="text-md-center" >0456730056</p>
             </article>
         </div>
@@ -44,7 +48,7 @@ title: Contacteer Bob
       
 
 
-<div class="container-fluid">
+<div class="container-fluid contactformulier p-5">
     <div class="row">
                     <div class="col-12 col-md-6">
                         <form>
@@ -61,13 +65,14 @@ title: Contacteer Bob
                     </div>                    
                     <div class="col-12 col-md-6">
                         <form>
-                            <div class="form-group">
+                            <div class="form-group mt-2">
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Typ hier uw bericht"></textarea>
                             </div>
                         </form>
                     </div>
                     
-                    <button type="button" class="btn btn-outline-dark ml-3">VERZENDEN</button>
+                    <button type="button" class="btn btn-outline-dark ml-3 verzendknop">VERZENDEN</button>
+
                 </form>
         </div>
     </div>
