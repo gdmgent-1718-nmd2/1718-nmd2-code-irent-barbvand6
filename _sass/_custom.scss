@@ -149,7 +149,7 @@ textarea{
 -------------------------------------------------- */
 
 .jumbotron-reservatie  {
-    background: url("../../images/jumbo4.jpeg") no-repeat;
+    background: url("../../images/jumbo4.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
     height:  200px;
@@ -168,8 +168,25 @@ textarea{
     background-color:rgb(219, 240, 239) !important;
     background-size: cover;
     background-position: center center;
-    height: 260px;
+    height: 280px;
     overflow: hidden;
+}
+
+.pijl-links {
+    margin-right: -60px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 25px;
+    opacity: 0.5;
+}
+
+.pijl-rechts {
+    margin-left: -60px;
+    height: 50px;
+    margin-top: 80px;
+    margin-right: -200px;
+    opacity: 0.5;
+    float: right;
 }
 
 /* SPRITES
