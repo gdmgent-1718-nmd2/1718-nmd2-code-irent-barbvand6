@@ -24,8 +24,6 @@ Content
 <h2>Heading level 2</h2>
 <h3>Heading level 3</h3>
 <h4>Heading level 4</h4>
-<h5>Heading level 5</h5>
-<h6>Heading level 6</h6>
 
 #### Display Headings
 {:.style-guide}
@@ -38,7 +36,6 @@ Content
 #### Text
 {:.style-guide}
 
-<p>You can use the mark tag to <mark>highlight</mark> text.</p>
 <p><del>This line of text is meant to be treated as deleted text.</del></p>
 <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
 <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>

@@ -10,9 +10,9 @@
     font-size: 0.8em;
 }
 
-li>a{
+li>a.footer-link{
     font-family: 'Roboto Condensed', sans-serif !important ;
-    font-weight: 700 !important;
+    font-weight: 300 !important;
     color: rgb(58,52,51);
     text-decoration: none;
 }
@@ -27,3 +27,4 @@ li>a:hover{
 ul {
     list-style: none;
 }
+
