@@ -4,7 +4,7 @@ published: true
 # ─────────────────────
 title: Style Guide
 ---
-[Terug]({{ site.baseurl }}{% link pages/index.html %}){:.btn.btn-primary.mt-1}
+[Terug]({{ site.baseurl }}{% link pages/index.html %}){:.btn.btn-outline-dark.mt-1}
 
 Style Guide
 ===========
@@ -113,14 +113,8 @@ Content
 ### Tables
 {:.style-guide}
 
-#### Default
-{:.style-guide}
-
-##### Light
-{:.style-guide}
-
 <table class="table">
-    <thead>
+    <thead class="thead-dark">
         <tr>
             <th scope="col">#</th>
             <th scope="col">First Name</th>
@@ -150,111 +144,6 @@ Content
     </tbody>
 </table>
 
-
-##### Dark
-{:.style-guide}
-
-<table class="table table-dark">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Username</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-        <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-        <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-        </tr>
-    </tbody>
-</table>
-
-#### Bordered
-{:.style-guide}
-
-##### Light
-{:.style-guide}
-
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Username</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-        <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-        <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-        </tr>
-    </tbody>
-</table>
-
-##### Dark
-{:.style-guide}
-
-<table class="table table-bordered table-dark">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Username</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-        <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-        <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-        </tr>
-    </tbody>
-</table>
 
 #### Utilities
 {:.style-guide}
@@ -484,7 +373,7 @@ Components
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <a href="#" class="btn btn-outline-dark">LEARN MORE</a>
     </p>
 </div>
 
